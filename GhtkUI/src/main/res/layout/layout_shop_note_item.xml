@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <requestFocus />
+
+    <ImageView
+        android:id="@+id/layout_shop_note_item_icon"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_green_radio" />
+
+    <com.ghtk.ui.Views.GhtkTextView
+        android:id="@+id/layout_shop_note_item_txt_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Nội dung"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/dp_7"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp_14"
+        android:visibility="visible"
+        app:font_text_view="regular" />
+
+    <com.ghtk.ui.Views.GhtkEditText
+        android:id="@+id/layout_shop_note_item_edt_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_7"
+        android:layout_weight="1"
+        android:background="@drawable/bg_gray_under_line"
+        android:hint="Tùy chỉnh ghi chú"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp_14"
+        android:visibility="gone"
+        app:font_text_edittext="regular" />
+</LinearLayout>

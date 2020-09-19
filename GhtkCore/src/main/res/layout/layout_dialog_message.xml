@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_round_radius_5dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp_7">
+
+    <com.ghtk.ui.Views.GhtkTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_green_top_left_right_radius_5dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingTop="@dimen/dp_7"
+        android:paddingBottom="@dimen/dp_7"
+        android:text="Thông báo"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp_16"
+        app:font_text_view="medium" />
+
+    <com.ghtk.ui.Views.GhtkTextView
+        android:id="@+id/layout_dialog_message_txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/dp_7"
+        android:paddingTop="@dimen/dp_7"
+        android:paddingRight="@dimen/dp_7"
+        android:paddingBottom="@dimen/dp_7"
+        android:text="Message"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp_14"
+        app:font_text_view="regular" />
+
+    <com.ghtk.ui.Views.GhtkTextView
+        android:id="@+id/layout_dialog_message_btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_3"
+        android:background="@drawable/bg_green_round_no_stroke_radius_3dp"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/dp_30"
+        android:paddingTop="@dimen/dp_7"
+        android:paddingRight="@dimen/dp_30"
+        android:paddingBottom="@dimen/dp_7"
+        android:text="Đóng"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dp_5"
+        app:font_text_view="bold" />
+
+</LinearLayout>

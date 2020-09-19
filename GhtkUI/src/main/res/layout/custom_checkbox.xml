@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_checkbox_ll_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/custom_checkbox_icon"
+        android:layout_width="@dimen/dp_22"
+        android:layout_height="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginTop="@dimen/dp_3"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_check_box_outline_blank_black_24dp" />
+
+    <com.ghtk.ui.Views.GhtkTextView
+        android:id="@+id/custom_checkbox_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingRight="@dimen/dp_5"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="@dimen/sp_12" />
+</LinearLayout>

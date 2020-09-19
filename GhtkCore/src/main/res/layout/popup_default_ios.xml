@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_border_popup_ios"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.ghtk.ui.Views.GhtkTextView
+            android:id="@+id/textViewTitle"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông báo"
+            android:gravity="center"
+            app:font_text_view="medium"
+            />
+        <com.ghtk.ui.Views.GhtkTextView
+            android:id="@+id/textViewContent"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông báo"
+            android:gravity="center"
+            app:font_text_view="regular"
+            android:layout_marginTop="3dp"
+            />
+    </LinearLayout>
+    <View
+        style="@style/LineGrayScreenNotify"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <com.ghtk.ui.Views.GhtkTextView
+            android:id="@+id/buttonLeft"
+            android:padding="7dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+
+            android:textSize="@dimen/sp_16"
+            app:font_text_view="medium"
+
+            />
+        <View
+            android:layout_width="@dimen/dp_3"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray"
+            />
+        <com.ghtk.ui.Views.GhtkTextView
+            android:id="@+id/buttonRight"
+            android:padding="7dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            app:font_text_view="regular"
+            android:textSize="@dimen/sp_16"
+
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
