@@ -1,3 +1,2 @@
-include ':autoimageslide'
-include ':app'
+include ':Kprogresshud', ':BottomNavigation', ':GhtkUI', ':GhtkCore', ':autoimageslide', ':app'
 rootProject.name = "ShopShoes"
