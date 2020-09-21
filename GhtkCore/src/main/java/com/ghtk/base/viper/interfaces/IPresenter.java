@@ -1,7 +1,8 @@
 package com.ghtk.base.viper.interfaces;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * Base Presenter

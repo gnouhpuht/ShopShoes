@@ -6,7 +6,8 @@ import com.ghtk.base.viper.interfaces.IView;
 import com.ghtk.common.R;
 
 import android.app.Activity;
-import android.support.v4.app.FragmentManager;
+
+import androidx.fragment.app.FragmentManager;
 
 /**
  * Base Fragment

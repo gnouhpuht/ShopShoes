@@ -5,13 +5,15 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatEditText;
+
 import com.ghtk.ui.R;
 
 /**
  * Created by Admin on 1/16/2018.
  */
 
-public class GhtkEditText extends android.support.v7.widget.AppCompatEditText {
+public class GhtkEditText extends AppCompatEditText {
 
     public static int BOLD = 1;
     public static int BoldItalic = 2;

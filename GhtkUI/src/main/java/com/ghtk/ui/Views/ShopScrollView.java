@@ -2,10 +2,10 @@ package com.ghtk.ui.Views;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ScrollView;
+import androidx.annotation.RequiresApi;
 
 public class ShopScrollView extends ScrollView {
 

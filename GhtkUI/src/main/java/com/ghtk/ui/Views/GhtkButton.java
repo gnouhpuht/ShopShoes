@@ -5,13 +5,15 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatButton;
+
 import com.ghtk.ui.R;
 
 /**
  * Created by Admin on 1/16/2018.
  */
 
-public class GhtkButton extends android.support.v7.widget.AppCompatButton {
+public class GhtkButton extends AppCompatButton {
 
     public static int BOLD = 1;
     public static int BoldItalic = 2;

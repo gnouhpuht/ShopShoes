@@ -3,8 +3,9 @@ package com.ghtk.ui.Views;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatTextView;
 
 import com.ghtk.ui.R;
 
@@ -12,7 +13,7 @@ import com.ghtk.ui.R;
  * Created by Admin on 1/16/2018.
  */
 
-public class GhtkTextView extends android.support.v7.widget.AppCompatTextView {
+public class GhtkTextView extends AppCompatTextView {
 
     public static int BOLD = 1;
     public static int BoldItalic = 2;

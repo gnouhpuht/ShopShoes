@@ -1,7 +1,8 @@
 package com.ghtk.base.viper;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
+
+import androidx.fragment.app.Fragment;
 
 import com.ghtk.base.viper.interfaces.ContainerView;
 import com.ghtk.base.viper.interfaces.IInteractor;

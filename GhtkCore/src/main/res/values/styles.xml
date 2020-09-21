@@ -15,4 +15,9 @@
 
     <item name="android:actionModeBackground">@color/grey</item>
   </style>
+  <style name="LineGrayScreenNotify">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0.5dp</item>
+    <item name="android:background">@color/dark_grey</item>
+  </style>
 </resources>
